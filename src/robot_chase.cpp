@@ -52,8 +52,8 @@ private:
     float error_distance;
     float distance_offset = 0.356;
     float error_yaw;
-    const float kp_yaw = 0.5;
-    const float kp_distance = 0.5;
+    const float kp_yaw = 0.9;
+    const float kp_distance = 1.5;
 
     geometry_msgs::msg::TransformStamped ts;
 
